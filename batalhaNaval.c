@@ -29,6 +29,17 @@ int main() {
     tabuleiro[6][7] = 3;
     tabuleiro[7][7] = 3;
 
+    // Navio diagonal nas colunas 1 a 3, linhas 1 a 3
+    tabuleiro[1][1] = 3;
+    tabuleiro[2][2] = 3;
+    tabuleiro[3][3] = 3;
+
+    // Navio diagonal nas colunas 5 a 7, linhas 4 a 2
+    tabuleiro[5][4] = 3;
+    tabuleiro[6][3] = 3;
+    tabuleiro[7][2] = 3;
+
+
     // Exibe o tabuleiro
     printf("Tabuleiro:\n");
     for (int i = 0; i < 10; i++) {
